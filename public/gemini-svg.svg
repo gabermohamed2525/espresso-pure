@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- خلفية دائرية بدرجة بني دافئة -->
+  <circle cx="256" cy="256" r="240" fill="#2C1810" />
+  
+  <!-- بخار القهوة -->
+  <path d="M190 150 C 180 120, 210 100, 200 70" stroke="#D4A373" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M256 140 C 246 110, 276 90, 266 60" stroke="#D4A373" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M322 150 C 312 120, 342 100, 332 70" stroke="#D4A373" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+  <!-- فنجان القهوة -->
+  <path d="M140 190 H 372 L 350 340 C 340 380, 310 400, 256 400 C 202 400, 172 380, 162 340 Z" fill="#FAEDCD" />
+  
+  <!-- مقبض الفنجان -->
+  <path d="M365 220 C 420 220, 420 310, 355 310" stroke="#FAEDCD" stroke-width="24" stroke-linecap="round" fill="none" />
+
+  <!-- طبق الفنجان -->
+  <path d="M120 420 H 392 C 410 420, 410 435, 392 435 H 120 C 102 435, 102 420, 120 420 Z" fill="#D4A373" />
+</svg>
