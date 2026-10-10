@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -12,13 +13,13 @@ import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import OrderSuccess from "./pages/OrderSuccess";
 
-
 import AdminLogin from "./components/admin/AdminLogin";
 import AdminDashboard from "./components/admin/AdminDashboard";
 import AdminProducts from "./components/admin/AdminProducts";
+
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
 
       <Routes>
@@ -31,14 +32,13 @@ function App() {
         <Route path="/order-success" element={<OrderSuccess />} />
 
         <Route path="/admin" element={<AdminLogin />} />
-<Route path="/admin/dashboard" element={<AdminDashboard />} />
-<Route path="/admin/products" element={<AdminProducts />} />
-<Route path="/admin/login" element={<AdminLogin />} />
-{/* <Route path="/admin/orders" element={<AdminOrders />} /> */}
+        <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        <Route path="/admin/products" element={<AdminProducts />} />
+        <Route path="/admin/login" element={<AdminLogin />} />
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
